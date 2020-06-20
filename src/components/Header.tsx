@@ -1,10 +1,10 @@
-import * as React from 'react';
+import * as React from 'react'
 
 function Header  () {
   return (
     <h1>
-      hola mundo
+      Header
     </h1>
-  );
+  )
 }
-export default Header;
+export default Header
