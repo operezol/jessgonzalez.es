@@ -1,5 +1,6 @@
 {
   "name": "jessgonzalez.es",
+  "homepage": "https://operezol.github.io/jessgonzalez.es/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

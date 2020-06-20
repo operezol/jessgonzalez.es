@@ -1,9 +1,10 @@
 import * as React from 'react';
 
-export default function Header() {
+function Header  () {
   return (
-    <>
+    <h1>
       hola mundo
-    </>
+    </h1>
   );
 }
+export default Header;

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/jessgonzalez.es/static/js/main.22bb954d.chunk.js",
+    "main.js.map": "/jessgonzalez.es/static/js/main.22bb954d.chunk.js.map",
+    "runtime-main.js": "/jessgonzalez.es/static/js/runtime-main.80f95f87.js",
+    "runtime-main.js.map": "/jessgonzalez.es/static/js/runtime-main.80f95f87.js.map",
+    "static/js/2.2166c1a1.chunk.js": "/jessgonzalez.es/static/js/2.2166c1a1.chunk.js",
+    "static/js/2.2166c1a1.chunk.js.map": "/jessgonzalez.es/static/js/2.2166c1a1.chunk.js.map",
+    "index.html": "/jessgonzalez.es/index.html",
+    "precache-manifest.34dc03fe084834eab06ab29689e0f083.js": "/jessgonzalez.es/precache-manifest.34dc03fe084834eab06ab29689e0f083.js",
+    "service-worker.js": "/jessgonzalez.es/service-worker.js",
+    "static/js/2.2166c1a1.chunk.js.LICENSE.txt": "/jessgonzalez.es/static/js/2.2166c1a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80f95f87.js",
+    "static/js/2.2166c1a1.chunk.js",
+    "static/js/main.22bb954d.chunk.js"
+  ]
+}
