@@ -8,9 +8,11 @@ export default class About extends React.Component {
     return (
       <>
         <Header />
-        <Footer />
+        <h1>About</h1>
         <Menu />
         <LanguageSelector />
+        <Footer />
+
       </>
     )
   }

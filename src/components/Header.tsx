@@ -1,10 +1,11 @@
 import * as React from 'react'
+import JessGonzalez from '../resources/JessGonzalez.svg'
 
 function Header  () {
   return (
-    <h1>
-      Header
-    </h1>
+    <>
+      <img src={JessGonzalez} width="200" alt=""/>
+    </>
   )
 }
 export default Header

@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.js": "/jessgonzalez.es/static/js/main.b1677ff5.chunk.js",
-    "main.js.map": "/jessgonzalez.es/static/js/main.b1677ff5.chunk.js.map",
+    "main.js": "/jessgonzalez.es/static/js/main.4d114eff.chunk.js",
+    "main.js.map": "/jessgonzalez.es/static/js/main.4d114eff.chunk.js.map",
     "runtime-main.js": "/jessgonzalez.es/static/js/runtime-main.80f95f87.js",
     "runtime-main.js.map": "/jessgonzalez.es/static/js/runtime-main.80f95f87.js.map",
-    "static/js/2.0e08872e.chunk.js": "/jessgonzalez.es/static/js/2.0e08872e.chunk.js",
-    "static/js/2.0e08872e.chunk.js.map": "/jessgonzalez.es/static/js/2.0e08872e.chunk.js.map",
+    "static/js/2.e7e126a4.chunk.js": "/jessgonzalez.es/static/js/2.e7e126a4.chunk.js",
+    "static/js/2.e7e126a4.chunk.js.map": "/jessgonzalez.es/static/js/2.e7e126a4.chunk.js.map",
     "index.html": "/jessgonzalez.es/index.html",
-    "precache-manifest.e0373cc7ae41887bdbe3f1ce12c24bbe.js": "/jessgonzalez.es/precache-manifest.e0373cc7ae41887bdbe3f1ce12c24bbe.js",
+    "precache-manifest.ba8e6afad5607d74388ea6673dab077b.js": "/jessgonzalez.es/precache-manifest.ba8e6afad5607d74388ea6673dab077b.js",
     "service-worker.js": "/jessgonzalez.es/service-worker.js",
-    "static/js/2.0e08872e.chunk.js.LICENSE.txt": "/jessgonzalez.es/static/js/2.0e08872e.chunk.js.LICENSE.txt"
+    "static/js/2.e7e126a4.chunk.js.LICENSE.txt": "/jessgonzalez.es/static/js/2.e7e126a4.chunk.js.LICENSE.txt",
+    "static/media/HamburguerIcon.svg": "/jessgonzalez.es/static/media/HamburguerIcon.a9add64a.svg",
+    "static/media/JessGonzalez.svg": "/jessgonzalez.es/static/media/JessGonzalez.6dc9a361.svg",
+    "static/media/domestika.svg": "/jessgonzalez.es/static/media/domestika.c6312dc6.svg",
+    "static/media/graphicDesign.gif": "/jessgonzalez.es/static/media/graphicDesign.83269da8.gif",
+    "static/media/illustration.gif": "/jessgonzalez.es/static/media/illustration.1f88a51c.gif",
+    "static/media/instagram.svg": "/jessgonzalez.es/static/media/instagram.5363d479.svg",
+    "static/media/linkedin.svg": "/jessgonzalez.es/static/media/linkedin.ee2223a8.svg",
+    "static/media/twitter.svg": "/jessgonzalez.es/static/media/twitter.5b566615.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.80f95f87.js",
-    "static/js/2.0e08872e.chunk.js",
-    "static/js/main.b1677ff5.chunk.js"
+    "static/js/2.e7e126a4.chunk.js",
+    "static/js/main.4d114eff.chunk.js"
   ]
 }

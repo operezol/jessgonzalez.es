@@ -15,12 +15,8 @@ import About from "./containers/About";
 function App() {
   return (
     <Switch>
-      <Route path="/">
-        <Home />
-      </Route>
-      <Route path="/illustration">
-        <Illustration />
-      </Route>
+     
+     
       <Route path="/illustration/drawings">
         <Drawings />
       </Route>
@@ -30,8 +26,8 @@ function App() {
       <Route path="/illustration/digital">
         <Digital />
       </Route>
-      <Route path="/graphic-design">
-        <GraficDesign />
+      <Route path="/illustration">
+        <Illustration />
       </Route>
       <Route path="/graphic-design/ekotarriko">
         <Ekotarriko />
@@ -45,8 +41,14 @@ function App() {
       <Route path="/graphic-design/talita">
         <Talita />
       </Route>
+      <Route path="/graphic-design">
+        <GraficDesign />
+      </Route>
       <Route path="/about">
         <About />
+      </Route>
+      <Route path="/">
+        <Home />
       </Route>
     </Switch>
   );
