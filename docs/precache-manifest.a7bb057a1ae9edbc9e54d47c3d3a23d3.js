@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cbf5615c542e85c8d23caea87451b3b",
+    "revision": "fb015f7b9c8fc9f0f60f64c937100a41",
     "url": "/jessgonzalez.es/index.html"
   },
   {
-    "revision": "2da46c32ea4573d1d0e6",
+    "revision": "3673c076a2fb89c4e765",
     "url": "/jessgonzalez.es/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "1f4fce8d8d7b65ea1109",
-    "url": "/jessgonzalez.es/static/js/2.17ca19d1.chunk.js"
+    "revision": "ade1f7dc56450c69b285",
+    "url": "/jessgonzalez.es/static/js/2.0fcc2a34.chunk.js"
   },
   {
     "revision": "16021066fd5e2548dbeed610083370ad",
-    "url": "/jessgonzalez.es/static/js/2.17ca19d1.chunk.js.LICENSE.txt"
+    "url": "/jessgonzalez.es/static/js/2.0fcc2a34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2da46c32ea4573d1d0e6",
-    "url": "/jessgonzalez.es/static/js/main.29dbdb01.chunk.js"
+    "revision": "3673c076a2fb89c4e765",
+    "url": "/jessgonzalez.es/static/js/main.45cc4505.chunk.js"
   },
   {
     "revision": "bef15d016255d54a7b1e",
