@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e043dc0e7c4149ad12d9b0bcda1cb74b",
+    "revision": "8eb4894f81aeddb687314915f23791b1",
     "url": "/jessgonzalez.es/index.html"
   },
   {
-    "revision": "3a507bbbf9900f647dce",
+    "revision": "2c54769c3600d3b59360",
     "url": "/jessgonzalez.es/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jessgonzalez.es/static/js/2.0fcc2a34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a507bbbf9900f647dce",
-    "url": "/jessgonzalez.es/static/js/main.5b76b319.chunk.js"
+    "revision": "2c54769c3600d3b59360",
+    "url": "/jessgonzalez.es/static/js/main.08916402.chunk.js"
   },
   {
     "revision": "bef15d016255d54a7b1e",
