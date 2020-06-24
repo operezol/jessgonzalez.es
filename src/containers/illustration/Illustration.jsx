@@ -13,9 +13,9 @@ export default class Illustration extends React.Component {
         <Header />
         <Menu />
         <h1>Illustration</h1>
-        <p><Link to="./illustration/drawings"><img src={drawings} width="50" alt="Drawings"/><span>DRAWINGS</span> </Link></p>
-        <p><Link to="./illustration/paintings"><img src={paintings} width="50" alt="Paintings" /><span>PAINTINGS</span> </Link></p>
-        <p><Link to="./illustration/digital"><img src={digital} width="50" alt="Digital"/><span>DIGITAL</span> </Link></p>
+        <p><Link to="./drawings"><img src={drawings} width="50" alt="Drawings"/><span>DRAWINGS</span> </Link></p>
+        <p><Link to="./paintings"><img src={paintings} width="50" alt="Paintings" /><span>PAINTINGS</span> </Link></p>
+        <p><Link to="./digital"><img src={digital} width="50" alt="Digital"/><span>DIGITAL</span> </Link></p>
         <Footer />
       </>
     );

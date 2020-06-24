@@ -11,9 +11,9 @@ export default class Menu extends React.Component {
         <button><img src={HamburguerIcon} width="50px" alt=""/></button>
         <button><img src={CloseIcon} width="50px" alt=""/></button>
         <LanguageSelector />
-        <Link to="./illustration">Illustration</Link>
-        <Link to="./graphic-design">Graphic Design</Link>
-        <Link to="./about">About me</Link>
+        <Link to="/illustration">Illustration</Link>
+        <Link to="/graphic-design">Graphic Design</Link>
+        <Link to="/about">About me</Link>
       </>
     )
   }
