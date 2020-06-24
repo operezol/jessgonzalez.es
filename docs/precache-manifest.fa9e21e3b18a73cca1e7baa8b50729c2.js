@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8eb4894f81aeddb687314915f23791b1",
+    "revision": "8e52449a67f209512998ad92c2d35bd1",
     "url": "/jessgonzalez.es/index.html"
   },
   {
-    "revision": "2c54769c3600d3b59360",
+    "revision": "f512ed877b8562204644",
     "url": "/jessgonzalez.es/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "ade1f7dc56450c69b285",
-    "url": "/jessgonzalez.es/static/js/2.0fcc2a34.chunk.js"
+    "revision": "993ffad6e9694ed68418",
+    "url": "/jessgonzalez.es/static/js/2.12ca1808.chunk.js"
   },
   {
     "revision": "16021066fd5e2548dbeed610083370ad",
-    "url": "/jessgonzalez.es/static/js/2.0fcc2a34.chunk.js.LICENSE.txt"
+    "url": "/jessgonzalez.es/static/js/2.12ca1808.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c54769c3600d3b59360",
-    "url": "/jessgonzalez.es/static/js/main.08916402.chunk.js"
+    "revision": "f512ed877b8562204644",
+    "url": "/jessgonzalez.es/static/js/main.1498dd82.chunk.js"
   },
   {
     "revision": "bef15d016255d54a7b1e",
@@ -148,12 +148,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jessgonzalez.es/static/media/digital.7d65085b.svg"
   },
   {
+    "revision": "b48e45b2c9375e946afcd68d8cc8c87b",
+    "url": "/jessgonzalez.es/static/media/digital.b48e45b2.jpg"
+  },
+  {
     "revision": "c6312dc6362536442e4034da0972afed",
     "url": "/jessgonzalez.es/static/media/domestika.c6312dc6.svg"
   },
   {
     "revision": "20d804b6e05a17dd2a6b2f6327ce1853",
     "url": "/jessgonzalez.es/static/media/drawings.20d804b6.svg"
+  },
+  {
+    "revision": "e0ca02aa5911a04607f5d779a73889de",
+    "url": "/jessgonzalez.es/static/media/ekotarriko-1.e0ca02aa.jpg"
+  },
+  {
+    "revision": "e2713016493c54a7d6beab53bd7a6f6c",
+    "url": "/jessgonzalez.es/static/media/ekotarriko-2.e2713016.jpg"
+  },
+  {
+    "revision": "85a2978884aaaa6c8adb829f707f45bd",
+    "url": "/jessgonzalez.es/static/media/ekotarriko-3.85a29788.jpg"
+  },
+  {
+    "revision": "ff5a5bfef184e808ec7ac6b0d4431e11",
+    "url": "/jessgonzalez.es/static/media/ekotarriko-4.ff5a5bfe.jpg"
+  },
+  {
+    "revision": "8eb555c56ea5eb78e511f289634dac7f",
+    "url": "/jessgonzalez.es/static/media/ekotarriko-btn.8eb555c5.jpg"
+  },
+  {
+    "revision": "768e7888c6b83e2ffe1807052a9790ca",
+    "url": "/jessgonzalez.es/static/media/fisioesthetic-1.768e7888.jpg"
+  },
+  {
+    "revision": "d1058e294fb54b28d753d53696d74467",
+    "url": "/jessgonzalez.es/static/media/fisioesthetic-2.d1058e29.jpg"
+  },
+  {
+    "revision": "bb8186401cfa51fa5150b938d13b99fb",
+    "url": "/jessgonzalez.es/static/media/fisioesthetic-3.bb818640.jpg"
+  },
+  {
+    "revision": "81b61dbca469744741bc12d5d034b203",
+    "url": "/jessgonzalez.es/static/media/fisioesthetic-4.81b61dbc.jpg"
+  },
+  {
+    "revision": "f8c7a5298dd91e4b0349066899009bed",
+    "url": "/jessgonzalez.es/static/media/fisioesthetic-btn.f8c7a529.jpg"
   },
   {
     "revision": "83269da85692390409fcfccc4aff0d8b",
@@ -172,8 +216,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jessgonzalez.es/static/media/linkedin.ee2223a8.svg"
   },
   {
+    "revision": "d770fd5718d25c0d15551a34e960a1b4",
+    "url": "/jessgonzalez.es/static/media/logo-amparo-baena.d770fd57.jpg"
+  },
+  {
+    "revision": "5377654cf499e0305d942b3ea6b98525",
+    "url": "/jessgonzalez.es/static/media/logo-cooperativa-agrotobalinesa.5377654c.jpg"
+  },
+  {
+    "revision": "f1c67f03c4bbef73d0dd9c7dbf9010e9",
+    "url": "/jessgonzalez.es/static/media/logo-nesscat.f1c67f03.jpg"
+  },
+  {
+    "revision": "eb7da7d6555865cd71db7e20a3dc5177",
+    "url": "/jessgonzalez.es/static/media/logo-nitryus.eb7da7d6.jpg"
+  },
+  {
+    "revision": "032156b991acfc621d31c05f5b1246e2",
+    "url": "/jessgonzalez.es/static/media/logo-ra.032156b9.jpg"
+  },
+  {
+    "revision": "95b9b0c8223ffa3c114fb6d97cc85e82",
+    "url": "/jessgonzalez.es/static/media/logos-btn.95b9b0c8.jpg"
+  },
+  {
     "revision": "7176cfd611de86ed4312aca132b965bb",
     "url": "/jessgonzalez.es/static/media/paintings.7176cfd6.svg"
+  },
+  {
+    "revision": "2bbf9f2d5b2272eaf39afc71c0e08a88",
+    "url": "/jessgonzalez.es/static/media/talita-1.2bbf9f2d.jpg"
+  },
+  {
+    "revision": "427acb0613ea9712f89c35dc01f1e3a4",
+    "url": "/jessgonzalez.es/static/media/talita-2.427acb06.jpg"
+  },
+  {
+    "revision": "30c562aed601ee5101b651b0eafc1712",
+    "url": "/jessgonzalez.es/static/media/talita-3.30c562ae.jpg"
+  },
+  {
+    "revision": "9b699e82f24cb9b0816b18a802ae10ff",
+    "url": "/jessgonzalez.es/static/media/talita-4.9b699e82.jpg"
+  },
+  {
+    "revision": "058eea4ca32ce5d3bd33bf1b7bf3ae27",
+    "url": "/jessgonzalez.es/static/media/talita-5.058eea4c.jpg"
+  },
+  {
+    "revision": "50cc24a95e5da05b53ac7fdb868a7956",
+    "url": "/jessgonzalez.es/static/media/talita-btn.50cc24a9.jpg"
   },
   {
     "revision": "5b566615a2dcb65b8839e5249ab70d42",
