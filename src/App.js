@@ -1,11 +1,12 @@
 import * as React from "react";
-import Home from "./containers/Home";
 import { Route, Switch } from "react-router-dom";
-import Illustration from "./containers/illustration/Illustration";
+
+import Home from "./containers/Home";
+import Illustration from "./containers/illustration";
 import Drawings from "./containers/illustration/Drawings";
 import Paintings from "./containers/illustration/Paintings";
 import Digital from "./containers/illustration/Digital";
-import GraficDesign from "./containers/GraphicDesign/GraphicDesign";
+import GraficDesign from "./containers/GraphicDesign";
 import Ekotarriko from "./containers/GraphicDesign/Ekotarriko";
 import Fisioesthetic from "./containers/GraphicDesign/Fisioesthetic";
 import Logos from "./containers/GraphicDesign/Logos";
@@ -13,43 +14,47 @@ import Talita from "./containers/GraphicDesign/Talita";
 import About from "./containers/About";
 
 function App() {
+  const [lang, setLang] = React.useState(
+    (navigator.language || navigator.userLanguage).substring(0, 2)
+  );
+
   return (
     <Switch>
       <Route path="/illustration/drawings">
-        <Drawings />
+        <Drawings lang={lang}/>
       </Route>
       <Route path="/illustration/paintings">
-        <Paintings />
+        <Paintings lang={lang}/>
       </Route>
       <Route path="/illustration/digital">
-        <Digital />
+        <Digital lang={lang}/>
       </Route>
       <Route path="/illustration">
-        <Illustration />
+        <Illustration lang={lang}/>
       </Route>
       <Route path="/graphic-design/ekotarriko">
-        <Ekotarriko />
+        <Ekotarriko lang={lang}/>
       </Route>
       <Route path="/graphic-design/fisioesthetic">
-        <Fisioesthetic />
+        <Fisioesthetic lang={lang}/>
       </Route>
       <Route path="/graphic-design/logos">
-        <Logos />
+        <Logos lang={lang}/>
       </Route>
       <Route path="/graphic-design/talita">
-        <Talita />
+        <Talita lang={lang}/>
       </Route>
       <Route path="/graphic-design">
-        <GraficDesign />
+        <GraficDesign lang={lang}/>
       </Route>
       <Route path="/about">
-        <About />
+        <About lang={lang}/>
       </Route>
       <Route path="/">
-        <Home />
+        <Home lang={lang} setLang={setLang} />
       </Route>
     </Switch>
-  );
+  )
 }
 
 export default App;

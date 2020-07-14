@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/jessgonzalez.es/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/jessgonzalez.es/static/js/main.1498dd82.chunk.js",
-    "main.js.map": "/jessgonzalez.es/static/js/main.1498dd82.chunk.js.map",
+    "main.css": "/jessgonzalez.es/static/css/main.b5973a0e.chunk.css",
+    "main.js": "/jessgonzalez.es/static/js/main.98dfcc96.chunk.js",
+    "main.js.map": "/jessgonzalez.es/static/js/main.98dfcc96.chunk.js.map",
     "runtime-main.js": "/jessgonzalez.es/static/js/runtime-main.80f95f87.js",
     "runtime-main.js.map": "/jessgonzalez.es/static/js/runtime-main.80f95f87.js.map",
-    "static/js/2.12ca1808.chunk.js": "/jessgonzalez.es/static/js/2.12ca1808.chunk.js",
-    "static/js/2.12ca1808.chunk.js.map": "/jessgonzalez.es/static/js/2.12ca1808.chunk.js.map",
+    "static/css/2.117ce29f.chunk.css": "/jessgonzalez.es/static/css/2.117ce29f.chunk.css",
+    "static/js/2.19be55d2.chunk.js": "/jessgonzalez.es/static/js/2.19be55d2.chunk.js",
+    "static/js/2.19be55d2.chunk.js.map": "/jessgonzalez.es/static/js/2.19be55d2.chunk.js.map",
     "index.html": "/jessgonzalez.es/index.html",
-    "precache-manifest.fa9e21e3b18a73cca1e7baa8b50729c2.js": "/jessgonzalez.es/precache-manifest.fa9e21e3b18a73cca1e7baa8b50729c2.js",
+    "precache-manifest.4fbf0b00cfb379d6b953917c7bd64308.js": "/jessgonzalez.es/precache-manifest.4fbf0b00cfb379d6b953917c7bd64308.js",
     "service-worker.js": "/jessgonzalez.es/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/jessgonzalez.es/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.12ca1808.chunk.js.LICENSE.txt": "/jessgonzalez.es/static/js/2.12ca1808.chunk.js.LICENSE.txt",
+    "static/css/2.117ce29f.chunk.css.map": "/jessgonzalez.es/static/css/2.117ce29f.chunk.css.map",
+    "static/css/main.b5973a0e.chunk.css.map": "/jessgonzalez.es/static/css/main.b5973a0e.chunk.css.map",
+    "static/js/2.19be55d2.chunk.js.LICENSE.txt": "/jessgonzalez.es/static/js/2.19be55d2.chunk.js.LICENSE.txt",
     "static/media/1-fish.jpg": "/jessgonzalez.es/static/media/1-fish.173c0583.jpg",
     "static/media/1-fox.jpg": "/jessgonzalez.es/static/media/1-fox.08436e1f.jpg",
     "static/media/10-dog.jpg": "/jessgonzalez.es/static/media/10-dog.a812a57f.jpg",
@@ -42,6 +44,7 @@
     "static/media/CloseIcon.svg": "/jessgonzalez.es/static/media/CloseIcon.33aba4f5.svg",
     "static/media/HamburguerIcon.svg": "/jessgonzalez.es/static/media/HamburguerIcon.a9add64a.svg",
     "static/media/JessGonzalez.svg": "/jessgonzalez.es/static/media/JessGonzalez.6dc9a361.svg",
+    "static/media/index.css": "/jessgonzalez.es/static/media/JessRegular-Regular.ce526e48.ttf",
     "static/media/digital.svg": "/jessgonzalez.es/static/media/digital.7d65085b.svg",
     "static/media/digital.jpg": "/jessgonzalez.es/static/media/digital.b48e45b2.jpg",
     "static/media/domestika.svg": "/jessgonzalez.es/static/media/domestika.c6312dc6.svg",
@@ -77,8 +80,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.80f95f87.js",
-    "static/js/2.12ca1808.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.1498dd82.chunk.js"
+    "static/css/2.117ce29f.chunk.css",
+    "static/js/2.19be55d2.chunk.js",
+    "static/css/main.b5973a0e.chunk.css",
+    "static/js/main.98dfcc96.chunk.js"
   ]
 }
