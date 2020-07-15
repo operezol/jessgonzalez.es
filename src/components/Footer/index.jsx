@@ -8,7 +8,7 @@ import twitter from "../../resources/footer/twitter.svg";
 
 const PageFooter = styled.footer`
   display: flex;
-  align-items: center;
+  justify-content: center;
   a {
     margin:.5rem;
     &:hover{

@@ -1,8 +1,7 @@
 import * as React from "react";
 
+import PageContainer from "../../../components/Page";
 
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
 import talita from "../../../resources/graphicDesign/talita-btn.jpg";
 import talita1 from "../../../resources/graphicDesign/talita-1.jpg";
 import talita2 from "../../../resources/graphicDesign/talita-2.jpg";
@@ -12,8 +11,7 @@ import talita5 from "../../../resources/graphicDesign/talita-5.jpg";
 
 function Talita({ lang }) {
   return (
-    <>
-      <Header lang={lang} />
+    <PageContainer lang={lang}>
       <img src={talita} alt="" />
       <p>
         El objetivo de la fundación era modernizar y dar un nuevo enfoque a su
@@ -33,8 +31,7 @@ function Talita({ lang }) {
       <img src={talita3} alt="" />
       <img src={talita4} alt="" />
       <img src={talita5} alt="" />
-      <Footer />
-    </>
+    </PageContainer>
   );
 }
 export default Talita;

@@ -1,14 +1,10 @@
 import * as React from "react";
 
-
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import PageContainer from "../../components/Page";
 
 function About({ lang }) {
   return (
-    <>
-      <Header lang={lang} />
-
+    <PageContainer lang={lang}>
       <h2>Soy Jess, ilustradoray diseñadora gráfica</h2>
       <p>
         He dibujado y pintado desde pequeñita, asi que hacer de ello mi
@@ -24,8 +20,7 @@ function About({ lang }) {
         Si te interesa trabajar conmigo o tienes cualquier pregunta escribeme a
         hola@jessgonzalez.es ;)
       </p>
-      <Footer />
-    </>
+    </PageContainer>
   );
 }
 export default About;

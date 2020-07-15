@@ -1,8 +1,6 @@
 import * as React from "react";
 
-
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import PageContainer from '../../../components/Page';
 
 import ekotarriko from "../../../resources/graphicDesign/ekotarriko-btn.jpg";
 import ekotarriko1 from "../../../resources/graphicDesign/ekotarriko-1.jpg";
@@ -12,9 +10,7 @@ import ekotarriko4 from "../../../resources/graphicDesign/ekotarriko-4.jpg";
 
 function EkotarriKo({ lang }) {
   return (
-    <>
-      <Header lang={lang} />
-
+    <PageContainer lang={lang} >
       <img src={ekotarriko} alt="" />
       <p>
         <strong>Ekotarriko</strong> es una marca de comida preparada, ecológica
@@ -37,8 +33,7 @@ function EkotarriKo({ lang }) {
       <img src={ekotarriko2} alt="" />
       <img src={ekotarriko3} alt="" />
       <img src={ekotarriko4} alt="" />
-      <Footer />
-    </>
+    </PageContainer>
   );
 }
 export default EkotarriKo;

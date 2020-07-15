@@ -51,3 +51,6 @@ button,button:active,button:hover,button:visited,button:focus {
 a{
   text-decoration: none;
 }
+a:hover{
+  font-family: Jess;
+}

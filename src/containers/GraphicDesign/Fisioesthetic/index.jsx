@@ -1,8 +1,6 @@
 import * as React from "react";
 
-
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import PageContainer from '../../../components/Page';
 
 import fisioesthetic from "../../../resources/graphicDesign/fisioesthetic-btn.jpg";
 import fisioesthetic1 from "../../../resources/graphicDesign/fisioesthetic-1.jpg";
@@ -12,9 +10,7 @@ import fisioesthetic4 from "../../../resources/graphicDesign/fisioesthetic-4.jpg
 
 function Fisioesthetic({ lang }) {
   return (
-    <>
-      <Header lang={lang} />
-
+    <PageContainer  lang={lang}>
       <img src={fisioesthetic} alt="" />
       <p>
         Fisioesthetic® ofrece servicios de fisioterapia, estética, nutrición y
@@ -31,8 +27,7 @@ function Fisioesthetic({ lang }) {
       <img src={fisioesthetic2} alt="" />
       <img src={fisioesthetic3} alt="" />
       <img src={fisioesthetic4} alt="" />
-      <Footer />
-    </>
+      </PageContainer>
   );
 }
 export default Fisioesthetic;

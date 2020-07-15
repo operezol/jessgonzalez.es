@@ -2,8 +2,7 @@ import * as React from "react";
 
 import { SRLWrapper } from "simple-react-lightbox";
 
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import PageContainer from "../../../components/Page";
 
 import fox from "../../../resources/illustration/drawings/1-fox.jpg";
 import bird from "../../../resources/illustration/drawings/2-bird.jpg";
@@ -20,9 +19,7 @@ import catCrown from "../../../resources/illustration/drawings/12-cat-crown.jpg"
 
 function Drawings({ lang }) {
   return (
-    <>
-      <Header lang={lang} />
-
+    <PageContainer lang={lang}>
       <h1>DRAWINGS</h1>
       <SRLWrapper>
         <img src={fox} alt="fox" />
@@ -38,8 +35,7 @@ function Drawings({ lang }) {
         <img src={deepLove} alt="deepLove" />
         <img src={catCrown} alt="catCrown" />
       </SRLWrapper>
-      <Footer />
-    </>
+    </PageContainer>
   );
 }
 export default Drawings;

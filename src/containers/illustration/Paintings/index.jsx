@@ -2,8 +2,7 @@ import * as React from "react";
 
 import { SRLWrapper } from "simple-react-lightbox";
 
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
+import PageContainer from "../../../components/Page";
 
 import fish from "../../../resources/illustration/paintings/1-fish.jpg";
 import happyCactus from "../../../resources/illustration/paintings/2-happy-cactus.jpg";
@@ -23,9 +22,7 @@ import crownedSkull from "../../../resources/illustration/paintings/15-crowned-s
 
 function Paintings({ lang }) {
   return (
-    <>
-      <Header lang={lang} />
-
+    <PageContainer lang={lang}>
       <h1>Paintings</h1>
       <SRLWrapper>
         <img src={fish} alt="fish" />
@@ -44,8 +41,7 @@ function Paintings({ lang }) {
         <img src={blueSkull} alt="blue skull" />
         <img src={crownedSkull} alt="crowned skull" />
       </SRLWrapper>
-      <Footer />
-    </>
+    </PageContainer>
   );
 }
 export default Paintings;
