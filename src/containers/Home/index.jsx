@@ -39,8 +39,8 @@ const InnerNav = styled.nav`
 `;
 
 const Logo = styled.img`
-  padding: 10% 25%;
-  width: 100%;
+  height:15vw;
+  padding:4vw;
 `;
 
 function Home({ lang, setLang }) {

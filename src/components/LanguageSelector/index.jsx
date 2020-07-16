@@ -3,10 +3,9 @@ import styled from "@emotion/styled";
 
 const LangNav = styled.nav`
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 1vh;
+  right: 1vw;
   button {
-    margin: 1rem 0.5rem;
     &.active {
       font-family: Jess;
     }

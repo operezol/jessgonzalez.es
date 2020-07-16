@@ -6,9 +6,14 @@ import JessGonzalez from "../../resources/JessGonzalez.svg";
 import Menu from "../Menu";
 
 const StyledHeader = styled.header`
-    max-width: 40rem;
-    margin: 0 auto;
-  a{display:inline-block;}
+  width:100%;
+  @media (min-width: 1000px) {
+    width: 40rem;
+  }
+  margin: 0 auto;
+  a {
+    display: inline-block;
+  }
   img {
     height: 2rem;
     margin: 1rem;
