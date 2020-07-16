@@ -8,7 +8,7 @@ import fisioesthetic2 from "../../../resources/graphicDesign/fisioesthetic-2.jpg
 import fisioesthetic3 from "../../../resources/graphicDesign/fisioesthetic-3.jpg";
 import fisioesthetic4 from "../../../resources/graphicDesign/fisioesthetic-4.jpg";
 
-function Fisioesthetic({ lang }) {
+function Fisioesthetic({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
     <PageContainer  lang={lang}>
       <img src={fisioesthetic} alt="" />

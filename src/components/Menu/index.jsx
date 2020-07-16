@@ -6,56 +6,118 @@ import HamburguerIcon from "../../resources/mobile/HamburguerIcon.svg";
 import CloseIcon from "../../resources/mobile/CloseIcon.svg";
 
 const StyledMenu = styled.nav`
-  float: right;
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
+  bottom: 0;
+
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  background-color:white;
-  padding:1rem;
+  background-color: white;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  transition: left 1s ease-in-out;
+  left: 100%;
+  &.opened {
+    left: 0;
+  }
   @media (min-width: 768px) {
+    padding-top: 0;
+    width: auto;
     position: relative;
-    border: 0;
+    float: right;
     flex-direction: row;
+    left:0;
+  }
+  a {
+    line-height: 4rem;
+    text-align: center;
+    width: 100%;
+    font-family: Jess;
+    @media (min-width: 768px) {
+      font-family: JessLight;
+      width: 6.3rem;
+      &:hover {
+        font-family: Jess;
+      }
+    }
   }
 `;
 
 const Hamburguer = styled.button`
   float: right;
   display: block;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+
   @media (min-width: 768px) {
     display: none;
   }
 `;
 const CloseButton = styled.button`
-  float: right;
-  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  img {
+    width: 25px;
+    height: 25px;
+  }
   @media (min-width: 768px) {
     display: none;
   }
 `;
 
-function Menu({ lang }) {
+function Menu({ lang, mobileMenuStatus, setMobileMenuStatus }) {
+  const handleClick = () => {
+    setMobileMenuStatus(!mobileMenuStatus);
+  };
   return (
     <>
-      <Hamburguer>
-        <img src={HamburguerIcon} width="50px" height="50px" alt="" />
+      <Hamburguer
+        onClick={() => {
+          handleClick();
+        }}
+      >
+        <img src={HamburguerIcon} alt="" />
       </Hamburguer>
-      <StyledMenu>
-        <CloseButton>
-          <img src={CloseIcon} width="50px" height="50px" alt="" />
+      <StyledMenu className={mobileMenuStatus ? "opened" : null}>
+        <CloseButton
+          onClick={() => {
+            handleClick();
+          }}
+        >
+          <img src={CloseIcon} alt="" />
         </CloseButton>
-        <NavLink to="/Illustration" activeStyle={{ fontFamily: "Jess" }}>
+        <NavLink
+          to="/Illustration"
+          activeStyle={{ fontFamily: "Jess" }}
+          onClick={() => {
+            handleClick();
+          }}
+        >
           {lang === "es" && "Ilustración"}
           {lang === "en" && "Illustration"}
         </NavLink>
-        <NavLink to="/graphic-design" activeStyle={{ fontFamily: "Jess" }}>
+        <NavLink
+          to="/graphic-design"
+          activeStyle={{ fontFamily: "Jess" }}
+          onClick={() => {
+            handleClick();
+          }}
+        >
           {lang === "es" && "Diseño Gráfico"}
           {lang === "en" && "Graphic Design"}
         </NavLink>
-        <NavLink to="/about" activeStyle={{ fontFamily: "Jess" }}>
+        <NavLink
+          to="/about"
+          activeStyle={{ fontFamily: "Jess" }}
+          onClick={() => {
+            handleClick();
+          }}
+        >
           {lang === "es" && "Sobre mi"}
           {lang === "en" && "About me"}
         </NavLink>

@@ -20,9 +20,9 @@ import holeCactus from "../../../resources/illustration/paintings/13-hole-cactus
 import blueSkull from "../../../resources/illustration/paintings/14-blue-skull.jpg";
 import crownedSkull from "../../../resources/illustration/paintings/15-crowned-skull.jpg";
 
-function Paintings({ lang }) {
+function Paintings({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang}>
+    <PageContainer lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}>
       <h1>Paintings</h1>
       <SRLWrapper>
         <img src={fish} alt="fish" />

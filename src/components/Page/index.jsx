@@ -10,15 +10,15 @@ const StyledPage = styled.div`
   flex-direction:column;
   justify-content:space-between;
   main{
-    max-width: 1366px;
+    max-width: 50rem;
     margin:0 auto;
   } 
 `;
 
-const PageContainer = ({ lang, digital = false, children }) => {
+const PageContainer = ({ lang, digital = false, children, mobileMenuStatus, setMobileMenuStatus}) => {
   return (
     <StyledPage>
-      <Header  lang={lang}/>
+      <Header  lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       <main>{children}</main>
       <Footer digital={digital} />
     </StyledPage>

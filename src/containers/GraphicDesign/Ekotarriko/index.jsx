@@ -8,9 +8,9 @@ import ekotarriko2 from "../../../resources/graphicDesign/ekotarriko-2.jpg";
 import ekotarriko3 from "../../../resources/graphicDesign/ekotarriko-3.jpg";
 import ekotarriko4 from "../../../resources/graphicDesign/ekotarriko-4.jpg";
 
-function EkotarriKo({ lang }) {
+function EkotarriKo({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang} >
+    <PageContainer lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}>
       <img src={ekotarriko} alt="" />
       <p>
         <strong>Ekotarriko</strong> es una marca de comida preparada, ecológica

@@ -17,9 +17,9 @@ import dog from "../../../resources/illustration/drawings/10-dog.jpg";
 import deepLove from "../../../resources/illustration/drawings/11-deep-love.jpg";
 import catCrown from "../../../resources/illustration/drawings/12-cat-crown.jpg";
 
-function Drawings({ lang }) {
+function Drawings({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang}>
+    <PageContainer lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}>
       <h1>DRAWINGS</h1>
       <SRLWrapper>
         <img src={fox} alt="fox" />

@@ -17,38 +17,40 @@ function App() {
   const [lang, setLang] = React.useState(
     (navigator.language || navigator.userLanguage).substring(0, 2)
   );
+  const [mobileMenuStatus, setMobileMenuStatus] = React.useState(false);
+
 
   return (
     <Switch>
       <Route path="/illustration/drawings">
-        <Drawings lang={lang}/>
+        <Drawings lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/illustration/paintings">
-        <Paintings lang={lang}/>
+        <Paintings lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/illustration/digital">
-        <Digital lang={lang}/>
+        <Digital lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/illustration">
-        <Illustration lang={lang}/>
+        <Illustration lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/graphic-design/ekotarriko">
-        <Ekotarriko lang={lang}/>
+        <Ekotarriko lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/graphic-design/fisioesthetic">
-        <Fisioesthetic lang={lang}/>
+        <Fisioesthetic lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/graphic-design/logos">
-        <Logos lang={lang}/>
+        <Logos lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/graphic-design/talita">
-        <Talita lang={lang}/>
+        <Talita lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/graphic-design">
-        <GraficDesign lang={lang}/>
+        <GraficDesign lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/about">
-        <About lang={lang}/>
+        <About lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}/>
       </Route>
       <Route path="/">
         <Home lang={lang} setLang={setLang} />

@@ -9,9 +9,9 @@ import talita3 from "../../../resources/graphicDesign/talita-3.jpg";
 import talita4 from "../../../resources/graphicDesign/talita-4.jpg";
 import talita5 from "../../../resources/graphicDesign/talita-5.jpg";
 
-function Talita({ lang }) {
+function Talita({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang}>
+    <PageContainer lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}>
       <img src={talita} alt="" />
       <p>
         El objetivo de la fundación era modernizar y dar un nuevo enfoque a su

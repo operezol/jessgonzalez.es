@@ -8,9 +8,13 @@ import amparo from "../../../resources/graphicDesign/logo-amparo-baena.jpg";
 import nitryus from "../../../resources/graphicDesign/logo-nitryus.jpg";
 import logora from "../../../resources/graphicDesign/logo-ra.jpg";
 
-function Logos({ lang }) {
+function Logos({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang}>
+    <PageContainer
+      lang={lang}
+      mobileMenuStatus={mobileMenuStatus}
+      setMobileMenuStatus={setMobileMenuStatus}
+    >
       <img src={nesscat} alt="" />
       <p>NESSCAT</p>
       <p>Servicios de vending</p>

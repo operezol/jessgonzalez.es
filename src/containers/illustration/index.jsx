@@ -21,10 +21,14 @@ const FlexBox = styled.main`
   @media (min-width: 768px) {
     flex-direction: row;
   }
+  img{
+    height:6rem;
+  }
   a{
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:space-between;
+    align-items:center;
     margin:1rem;
     span{
       text-align:center;
@@ -32,30 +36,30 @@ const FlexBox = styled.main`
   }
 `;
 
-function Illustration({ lang }) {
+function Illustration({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang}>
+    <PageContainer lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}>
       <StyledTitle>
         {lang === "es" && "ILUSTRACIÓN"}
         {lang === "en" && "ILLUSTRATION"}
       </StyledTitle>
       <FlexBox>
           <Link to="/illustration/drawings">
-            <img src={drawings} width="100" alt="Drawings" />
+            <img src={drawings}  alt="Drawings" />
             <span>
               {lang === "es" && "DIBUJO"}
               {lang === "en" && "DRAWINGS"}
             </span>
           </Link>
           <Link to="/illustration/paintings">
-            <img src={paintings} width="100" alt="Paintings" />
+            <img src={paintings}  alt="Paintings" />
             <span>
               {lang === "es" && "PINTURA"}
               {lang === "en" && "PAINTINGS"}
             </span>
           </Link>
           <Link to="/illustration/digital">
-            <img src={digital} width="100" alt="Digital" />
+            <img src={digital}  alt="Digital" />
             <span>
               {lang === "es" && "DIGITAL"}
               {lang === "en" && "DIGITAL"}

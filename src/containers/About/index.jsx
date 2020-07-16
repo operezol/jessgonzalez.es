@@ -2,9 +2,9 @@ import * as React from "react";
 
 import PageContainer from "../../components/Page";
 
-function About({ lang }) {
+function About({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
-    <PageContainer lang={lang}>
+    <PageContainer lang={lang} mobileMenuStatus={mobileMenuStatus} setMobileMenuStatus={setMobileMenuStatus}>
       <h2>Soy Jess, ilustradoray diseñadora gráfica</h2>
       <p>
         He dibujado y pintado desde pequeñita, asi que hacer de ello mi

@@ -6,7 +6,7 @@ const LangNav = styled.nav`
   top: 0;
   right: 0;
   button {
-    margin: 1rem .5rem;
+    margin: 1rem 0.5rem;
     &.active {
       font-family: Jess;
     }
@@ -17,16 +17,16 @@ function LanguageSelector({ lang, setLang }) {
   return (
     <LangNav>
       <button
-        className={(lang === "en") ? "active" : null}
+        className={lang === "en" ? "active" : null}
         onClick={() => {
           setLang("en");
         }}
       >
         ENG
       </button>
-      {' / '}
+      <span> / </span>
       <button
-        className={(lang === "es") ? "active" : null}
+        className={lang === "es" ? "active" : null}
         onClick={() => {
           setLang("es");
         }}

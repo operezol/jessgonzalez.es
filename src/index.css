@@ -1,29 +1,44 @@
 @font-face {
-  font-family: 'Jess';
-  src: local('Jess'), local('Jess'),
-       url('./resources/fonts/JessRegular-Regular.otf') format('otf'),
-       url('./resources/fonts/JessRegular-Regular.ttf') format('truetype');
+  font-family: "Jess";
+  src: local("Jess"), local("Jess"),
+    url("./resources/fonts/JessRegular-Regular.otf") format("otf"),
+    url("./resources/fonts/JessRegular-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'JessLight';
-  src: local('JessLight'), local('JessLight'),
-       url('./resources/fonts/JessLight-Regular.otf') format('otf'),
-       url('./resources/fonts/JessLight-Regular.ttf') format('truetype');
+  font-family: "JessLight";
+  src: local("JessLight"), local("JessLight"),
+    url("./resources/fonts/JessLight-Regular.otf") format("otf"),
+    url("./resources/fonts/JessLight-Regular.ttf") format("truetype");
 }
 body {
   margin: 0;
-  font-family: 'JessLight';
+  position: relative;
+  font-family: "JessLight";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-transform: uppercase;
+  width: 100%;
+  overflow-x: hidden;
+}
+html {
+  font-size: calc(10px + 2vw);
+}
+@media(min-width:768px){
+  html {
+    font-size: calc(14px + 1vw);
+  }
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-button,button:active,button:hover,button:visited,button:focus {
-  font-family: 'JessLight';
+button,
+button:active,
+button:hover,
+button:visited,
+button:focus {
+  font-family: "JessLight";
   -webkit-appearance: none;
   writing-mode: horizontal-tb;
   -webkit-writing-mode: horizontal-tb !important;
@@ -47,10 +62,12 @@ button,button:active,button:hover,button:visited,button:focus {
   border-image: none;
   cursor: pointer;
   outline: transparent auto 0px;
+  font-size: 1rem;
 }
-a{
+a {
   text-decoration: none;
+  color: black;
 }
-a:hover{
+a:hover {
   font-family: Jess;
 }
