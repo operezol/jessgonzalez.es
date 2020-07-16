@@ -9,9 +9,13 @@ const StyledPage = styled.div`
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  main{
-    max-width: 50rem;
+  >main{
+    max-width: 35rem;
     margin:0 auto;
+    min-height:calc(100vh - 8rem);
+    h1{
+      text-align:center;
+    }
   } 
 `;
 

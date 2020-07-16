@@ -34,13 +34,8 @@ const StyledMenu = styled.nav`
     line-height: 4rem;
     text-align: center;
     width: 100%;
-    font-family: Jess;
     @media (min-width: 768px) {
-      font-family: JessLight;
       width: 6.3rem;
-      &:hover {
-        font-family: Jess;
-      }
     }
   }
 `;

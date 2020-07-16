@@ -10,8 +10,8 @@ const PageFooter = styled.footer`
   display: flex;
   justify-content: center;
   a {
-    margin:1rem;
-    width:2rem;
+    margin:1rem 1rem 1rem 0;
+    width:1rem;
   }
 `;
 
