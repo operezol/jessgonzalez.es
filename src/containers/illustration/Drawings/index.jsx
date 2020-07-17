@@ -1,9 +1,12 @@
 import * as React from "react";
-import styled from "@emotion/styled";
 
+import { Link } from "react-router-dom";
 import { SRLWrapper } from "simple-react-lightbox";
 
 import PageContainer from "../../../components/Page";
+import Slideshow from "../../../components/Slideshow";
+import Title from "../../../components/Title";
+import Back from "../../../components/Back";
 
 import fox from "../../../resources/illustration/drawings/1-fox.jpg";
 import bird from "../../../resources/illustration/drawings/2-bird.jpg";
@@ -18,23 +21,6 @@ import dog from "../../../resources/illustration/drawings/10-dog.jpg";
 import deepLove from "../../../resources/illustration/drawings/11-deep-love.jpg";
 import catCrown from "../../../resources/illustration/drawings/12-cat-crown.jpg";
 
-const MainContent = styled.div`
-  padding:1rem 0 0 1rem;
-  img {
-    padding: 0 1rem 1rem 0;
-    width: 100%;
-  }
-  @media (min-width: 768px) {
-    column-count: 2;
-    column-gap: 0;
-  }
-  @media (min-width: 1280px) {
-    column-count: 3;
-    column-gap: 0;
-  }
-
-`;
-
 function Drawings({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
     <PageContainer
@@ -42,26 +28,94 @@ function Drawings({ lang, mobileMenuStatus, setMobileMenuStatus }) {
       mobileMenuStatus={mobileMenuStatus}
       setMobileMenuStatus={setMobileMenuStatus}
     >
-      <h1>DRAWINGS</h1>
+      <Title>
+        <Back>
+          <Link to="/illustration">
+            <span>{"<"} </span>
+            {lang === "es" && "volver a ilustración"}
+            {lang === "en" && "back to illustration"}
+          </Link>
+        </Back>
+        <h1>
+          {lang === "es" && "dibujo"}
+          {lang === "en" && "drawings"}
+        </h1>
+      </Title>
       <SRLWrapper>
-        <MainContent>
-          <img src={fox} alt="fox" />
-          <img src={deepLove} alt="deepLove"/>
-
-          <img src={snake} alt="snake" />
-          <img src={dinosaur} alt="dinosaur" />
-          <img src={bird} alt="bird" />
-
-          <img src={person} alt="person" />
-          <img src={ghostBuster} alt="ghostBuster" />
-          <img src={plant} alt="plant" />
-
-          <img src={dog} alt="dog" />
-          <img src={selfPortrait} alt="selfPortrait" />
-
-          <img src={portraits} alt="portraits" />
-          <img src={catCrown} alt="catCrown" />
-        </MainContent>
+        <Slideshow>
+          <img
+            src={fox}
+            alt={`${lang === "es" ? "zorro" : ''}${
+              lang === "en" ? "fox" : ''
+            }`}
+          />
+          <img
+            src={deepLove}
+            alt={`${lang === "es" ? "amor profundo" : ''}${
+              lang === "en" ? "deep love" : ''
+            }`}
+          />
+          <img
+            src={snake}
+            alt={`${lang === "es" ? "serpiente" : ''}${
+              lang === "en" ? "snake" : ''
+            }`}
+          />
+          <img
+            src={dinosaur}
+            alt={`${lang === "es" ? "dinosaurio" : ''}${
+              lang === "en" ? "dinosaur" : ''
+            }`}
+          />
+          <img
+            src={bird}
+            alt={`${lang === "es" ? "pájaro" : ''}${
+              lang === "en" ? "bird" : ''
+            }`}
+          />
+          <img
+            src={person}
+            alt={`${lang === "es" ? "persona" : ''}${
+              lang === "en" ? "person" : ''
+            }`}
+          />
+          <img
+            src={ghostBuster}
+            alt={`${lang === "es" ? "cazafantasmas" : ''}${
+              lang === "en" ? "ghostBuster" : ''
+            }`}
+          />
+          <img
+            src={plant}
+            alt={`${lang === "es" ? "planta" : ''}${
+              lang === "en" ? "plant" : ''
+            }`}
+          />
+          <img
+            src={dog}
+            alt={`${lang === "es" ? "perro" : ''}${
+              lang === "en" ? "dog" : ''
+            }`}
+          />
+          <img
+            src={selfPortrait}
+            alt={`${lang === "es" ? "autorretrato" : ''}${
+              lang === "en" ? "selfPortrait" : ''
+            }`}
+          />
+          <img
+            src={portraits}
+            alt={`${lang === "es" ? "retratos" : ''} ${
+              lang === "en" ? "portraits" : ''
+            }`}
+          />
+          <img
+            src={catCrown}
+            alt={`${lang === "es" ? "gato corona" : ''}${
+              lang === "en" ? "catCrown" : ''
+            }`}
+          />
+        </Slideshow>
       </SRLWrapper>
     </PageContainer>
   );

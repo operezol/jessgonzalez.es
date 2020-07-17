@@ -13,9 +13,7 @@ const StyledPage = styled.div`
     max-width: 35rem;
     margin:0 auto;
     min-height:calc(100vh - 8rem);
-    h1{
-      text-align:center;
-    }
+    padding-top:3rem;
   } 
 `;
 

@@ -1,9 +1,12 @@
 import * as React from "react";
-import styled from "@emotion/styled";
 
+import { Link } from "react-router-dom";
 import { SRLWrapper } from "simple-react-lightbox";
 
 import PageContainer from "../../../components/Page";
+import Slideshow from "../../../components/Slideshow";
+import Title from "../../../components/Title";
+import Back from "../../../components/Back";
 
 import fish from "../../../resources/illustration/paintings/1-fish.jpg";
 import happyCactus from "../../../resources/illustration/paintings/2-happy-cactus.jpg";
@@ -21,23 +24,6 @@ import holeCactus from "../../../resources/illustration/paintings/13-hole-cactus
 import blueSkull from "../../../resources/illustration/paintings/14-blue-skull.jpg";
 import crownedSkull from "../../../resources/illustration/paintings/15-crowned-skull.jpg";
 
-const MainContent = styled.div`
-  padding:1rem 0 0 1rem;
-  img {
-    padding: 0 1rem 1rem 0;
-    width: 100%;
-  }
-  @media (min-width: 768px) {
-    column-count: 2;
-    column-gap: 0;
-  }
-  @media (min-width: 1280px) {
-    column-count: 3;
-    column-gap: 0;
-  }
-
-`;
-
 function Paintings({ lang, mobileMenuStatus, setMobileMenuStatus }) {
   return (
     <PageContainer
@@ -45,25 +31,110 @@ function Paintings({ lang, mobileMenuStatus, setMobileMenuStatus }) {
       mobileMenuStatus={mobileMenuStatus}
       setMobileMenuStatus={setMobileMenuStatus}
     >
-      <h1>Paintings</h1>
+      <Title>
+        <Back>
+          <Link to="/illustration">
+            <span>{"<"} </span>
+            {lang === "es" && "volver a ilustración"}
+            {lang === "en" && "back to illustration"}
+          </Link>
+        </Back>
+        <h1>
+          {lang === "es" && "PINTURA"}
+          {lang === "en" && "Paintings"}
+        </h1>
+      </Title>
       <SRLWrapper>
-        <MainContent>
-          <img src={fish} alt="fish" />
-          <img src={whale} alt="whale" />
-          <img src={redNose} alt="red nose" />
-          <img src={funnyBunny} alt="funnyBunny" />
-          <img src={blueSkull} alt="blue skull" />
-          <img src={mssBunny} alt="mss-bunny" />
-          <img src={happyCactus} alt="happy cactus" />
-          <img src={cactusaurus} alt="cactusaurus" />
-          <img src={fox} alt="fox" />
-          <img src={holeCactus} alt="hole cactus" />
-          <img src={crownedSkull} alt="crowned skull" />
-          <img src={spaceMonkey} alt="space monkey" />
-          <img src={jellyfish} alt="jellyfish" />
-          <img src={ragDoll} alt="rag doll" />
-          <img src={littleBird} alt="little bird" />
-        </MainContent>
+        <Slideshow>
+          <img
+            src={fish}
+            alt={`${lang === "es" ? "pez" : ""} ${lang === "en" ? "fish" : ""}`}
+          />
+          <img
+            src={whale}
+            alt={`${lang === "es" ? "ballena" : ""} ${
+              lang === "en" ? "whale" : ""
+            }`}
+          />
+          <img
+            src={redNose}
+            alt={`${lang === "es" ? "nariz roja" : ""} ${
+              lang === "en" ? "red nose" : ""
+            }`}
+          />
+          <img
+            src={funnyBunny}
+            alt={`${lang === "es" ? "conejito felíz" : ""} ${
+              lang === "en" ? "funnyBunny" : ""
+            }`}
+          />
+          <img
+            src={blueSkull}
+            alt={`${lang === "es" ? "calabera azul" : ""} ${
+              lang === "en" ? "blue skull" : ""
+            }`}
+          />
+          <img
+            src={mssBunny}
+            alt={`${lang === "es" ? "señorita conejita" : ""} ${
+              lang === "en" ? "miss bunny" : ""
+            }`}
+          />
+          <img
+            src={happyCactus}
+            alt={`${lang === "es" ? "cactus felíz" : ""} ${
+              lang === "en" ? "happy cactus" : ""
+            }`}
+          />
+          <img
+            src={cactusaurus}
+            alt={`${lang === "es" ? "cactusauro" : ""} ${
+              lang === "en" ? "cactusaurus" : ""
+            }`}
+          />
+          <img
+            src={fox}
+            alt={`${lang === "es" ? "zorro" : ""} ${
+              lang === "en" ? "fox" : ""
+            }`}
+          />
+          <img
+            src={holeCactus}
+            alt={`${lang === "es" ? "cactus agujero" : ""} ${
+              lang === "en" ? "hole cactus" : ""
+            }`}
+          />
+          <img
+            src={crownedSkull}
+            alt={`${lang === "es" ? "calabera coronada" : ""} ${
+              lang === "en" ? "crowned skull" : ""
+            }`}
+          />
+          <img
+            src={spaceMonkey}
+            alt={`${lang === "es" ? "mono del espacio" : ""} ${
+              lang === "en" ? "space monkey" : ""
+            }`}
+          />
+          <img
+            src={jellyfish}
+            alt={`${lang === "es" ? "medusa" : ""} ${
+              lang === "en" ? "jellyfish" : ""
+            }`}
+          />
+          <img
+            src={ragDoll}
+            alt={`${lang === "es" ? "muñeca de trapo" : ""} ${
+              lang === "en" ? "rag doll" : ""
+            }`}
+          />
+          <img
+            src={littleBird}
+            alt={`${lang === "es" ? "pajarito" : ""} ${
+              lang === "en" ? "little bird" : ""
+            }`}
+          />
+        </Slideshow>
       </SRLWrapper>
     </PageContainer>
   );
