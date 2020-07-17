@@ -16,15 +16,17 @@ const StyledTitle = styled.h1`
   }
 `;
 const SeeMore = styled.div`
-    overflow: hidden;
-    position: relative;yarn 
+  overflow: hidden;
+  position: relative;
+  font-family:'Jess';
+
   & > span {
     text-align: right;
     display: block;
     width: 100%;
     padding: 0.5rem;
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
     & > span {
       font-size: 1.5rem;
     }
@@ -41,6 +43,9 @@ const SeeMore = styled.div`
     &:hover {
       & > span {
         bottom: 0;
+        left: 0;
+        right: 0;
+        text-align:right;
       }
     }
   }
@@ -48,12 +53,12 @@ const SeeMore = styled.div`
 
 const MainContent = styled.div`
   a {
-    display:block;
-    padding:1rem;
+    display: block;
+    padding: 1rem;
   }
   @media (min-width: 768px) {
     column-count: 2;
-    column-gap:0;
+    column-gap: 0;
   }
 `;
 
